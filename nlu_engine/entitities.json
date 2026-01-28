@@ -1,0 +1,104 @@
+{
+  "intents": [
+    {
+      "name": "check_balance",
+      "examples": [
+        "What's my account balance?",
+        "Show balance for my savings account",
+        "How much money do I have in my current account?",
+        "Check balance of my savings",
+        "Can you tell me my account balance?",
+        "What's the balance in my checking account?",
+        "Show me my balance",
+        "How much is left in my savings?",
+        "I'd like to see my account balance",
+        "Please display my current balance",
+        "Balance enquiry for my account",
+        "What is my available balance right now?",
+        "Get balance for account ending [1234](account_number)",
+        "What's the available balance in my account?",
+        "Check my savings balance",
+        "How much funds do I have in my account?",
+        "Tell me my account balance for today",
+        "Show current balance for my current account",
+        "What is my bank balance?",
+        "Display balance"
+      ]
+    },
+    {
+      "name": "transfer_money",
+      "examples": [
+        "Transfer [5000](amount) from savings to checking",
+        "Move [1500](amount) to account [12345678](account_number)",
+        "Please transfer [250](amount) to my friend",
+        "Transfer funds from my savings to current account",
+        "I want to send [1000](amount) rupees to account [9876543210](account_number)",
+        "Transfer [50](amount) to account number [555666](account_number)",
+        "Make a transfer of [2000](amount) INR to my other account",
+        "Send money to another account",
+        "Transfer amount [7500](amount) to my daughter's account",
+        "Please move [3000](amount) from checking to savings",
+        "Initiate transfer of [1000](amount) to account [11223344](account_number)",
+        "Pay [4500](amount) to account [99887766](account_number)",
+        "I need to transfer money to someone",
+        "Transfer [1000](amount) from my savings to my current account",
+        "Transfer [20000](amount) INR to vendor account",
+        "Move funds to account ending [4321](account_number)",
+        "Can you transfer [120](amount) to my other account?",
+        "Send payment of [600](amount) to account [33322211](account_number)",
+        "Transfer [5000](amount) from my savings"
+      ]
+    },
+    {
+      "name": "card_block",
+      "examples": [
+        "I want to block my [debit card](card_type)",
+        "Block my [credit card](card_type) immediately",
+        "How can I block a lost card?",
+        "My card is lost, please block it",
+        "Temporarily disable my [debit card](card_type)",
+        "Report lost [credit card](card_type) and block it",
+        "Block card number ending [4321](account_number)",
+        "How do I freeze my card?",
+        "I think my card was stolen, block it now",
+        "Please block my ATM card",
+        "Deactivate my [debit card](card_type)",
+        "Emergency: block my [credit card](card_type)",
+        "Prevent transactions on my lost card",
+        "Suspend card usage for my [debit card](card_type)",
+        "Block card due to fraudulent activity",
+        "Lock my card immediately",
+        "Stop transactions on my [credit card](card_type)",
+        "Block the card linked to account [123456](account_number)",
+        "Disable my card temporarily",
+        "Request to block my card"
+      ]
+    },
+    {
+      "name": "find_atm",
+      "examples": [
+        "Where is the nearest ATM?",
+        "Find ATM in [Bangalore](location)",
+        "ATM near [me](location)",
+        "Locate nearest ATM branch",
+        "Show me nearby ATMs",
+        "Is there an ATM near [Whitefield](location)?",
+        "Nearest ATM to my location",
+        "Where can I withdraw cash nearby?",
+        "Find the closest ATM to my address",
+        "ATM within [1 km](distance) of [me](location)",
+        "Locate an ATM on [MG Road](location)",
+        "Show ATMs near [me](location)",
+        "Find ATM open now",
+        "Where is the nearest cash machine?",
+        "Nearest ATM branch for my bank",
+        "ATM location near [airport](location)",
+        "Locate ATM using my current location",
+        "Is there an ATM in this area?",
+        "ATM near me that accepts deposits",
+        "Find nearest ATM that dispenses cash",
+        "where the ATM?"
+      ]
+    }
+  ]
+}
