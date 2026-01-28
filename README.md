@@ -329,4 +329,4 @@ This project is licensed under the MIT License. You are free to use, modify, and
 
 **Note**: This is a demonstration project for educational and certification purposes. For production deployment, additional security measures and compliance requirements must be implemented.
 
-*Built with ❤️ using Python, AI, and Modern NLP Technologies*
+*Built with Python, Streamlit, Transformers and Modern NLP Technologies*
