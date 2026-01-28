@@ -306,7 +306,7 @@ This project demonstrates proficiency in:
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. You are free to use, modify, and distribute this project for educational and professional purposes.
 
 ## 🙏 Acknowledgments
 
