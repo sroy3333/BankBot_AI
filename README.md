@@ -256,7 +256,7 @@ streamlit run main_app.py --server.runOnSave true
 ### User Chat Interface
 
 1. Open the main application
-2. Enter your account number for authentication
+2. Enter your username and password for authentication
 3. Start chatting with BankBot using natural language:
    - "What's my account balance?"
    - "Transfer ₹5000 to account 67890"
