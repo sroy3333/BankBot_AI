@@ -29,8 +29,6 @@ from datetime import datetime
 if "session_id" not in st.session_state:
     st.session_state.session_id = str(uuid.uuid4())
 
-print("GROQ_API_KEY:", os.getenv("GROQ_API_KEY"))
-
 # ---------------------------------------------------
 # 🔐 GLOBAL AUTH STATE
 # ---------------------------------------------------
