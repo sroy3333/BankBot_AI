@@ -629,7 +629,7 @@ with tab4:
     st.markdown("### Confusion Matrix")
 
     cm_df = pd.DataFrame(cm, index=labels, columns=labels)
-    st.dataframe(cm_df, width="stretch")
+    st.dataframe(cm_df, use_container_width=True)
 
     # Heatmap-style visualization
     st.markdown("### Confusion Heatmap")
@@ -648,7 +648,7 @@ with tab4:
     )
 
     report_df = pd.DataFrame(report).transpose()
-    st.dataframe(report_df.round(3), width="stretch")
+    st.dataframe(report_df.round(3), use_container_width=True)
 
     st.markdown("</div>", unsafe_allow_html=True)
 
