@@ -32,7 +32,6 @@ def build_model():
                 C=3.0,
                 class_weight="balanced",
                 solver="lbfgs",
-                multi_class="auto"
             )
         )
     ])
