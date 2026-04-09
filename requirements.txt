@@ -6,7 +6,6 @@ tqdm
 sentencepiece
 regex
 datasets
-torch
 scikit-learn
 accelerate>=0.26.0
 streamlit>=1.24.0
@@ -17,4 +16,8 @@ groq
 python-dotenv
 langchain-community
 bcrypt
+matplotlib
 llama-cpp-python --prefer-binary
+plotly
+numpy
+pandas
